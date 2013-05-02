@@ -1,0 +1,22 @@
+#Move in history using up and down arrows
+"\e[A": history-search-backward
+"\e[B": history-search-forward                                                    
+# VT
+#"\e[1~": beginning-of-line
+#"\e[4~": end-of-line
+# kvt
+#"\e[H":beginning-of-line
+#"\e[F":end-of-line
+
+# rxvt and konsole (i.e. the KDE-app...
+"\e[7~":beginning-of-line
+"\e[8~":end-of-line
+
+#"^[[7~":beginning-of-line # Home (Eterm)
+#"^[[8~":end-of-line # End (Eterm)
+#
+
+#On tab show completion
+set show-all-if-ambiguous on
+set editing-mode vi
+set completion-ignore-case on

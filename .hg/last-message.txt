@@ -1,0 +1,1 @@
+fixed xvfb DISPLAY allocation in selenium server

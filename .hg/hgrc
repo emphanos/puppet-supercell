@@ -1,0 +1,2 @@
+[paths]
+default = ssh://root@civihead.osuosl.test//etc/puppetlabs/puppet
